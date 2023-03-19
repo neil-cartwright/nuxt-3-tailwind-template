@@ -2,7 +2,7 @@
  <div>
   <header>
    <nav>
-    <ul>
+    <ul class="flex max-w-5xl mx-auto bg-blue-500 p-2 text-white gap-8">
      <li>
       <NuxtLink to="/">Home</NuxtLink>
      </li>
@@ -15,7 +15,7 @@
     </ul>
    </nav>
   </header>
-  <div>
+  <div class="max-w-5xl mx-auto">
    <slot />
   </div>
  </div>
@@ -25,6 +25,6 @@
 
 <style scoped>
 .router-link-exact-active {
- color: blue;
+ color: orange;
 }
 </style>
